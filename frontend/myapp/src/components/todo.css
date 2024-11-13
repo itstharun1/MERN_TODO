@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.todo-card{
+    background-color: transparent;
+
+}
+.todo-main{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100vh;
+    padding: 20px;
+    background-size: cover;
+}
+button{
+    width: 10vw;
+}
+input{
+    width: 40vw;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(174, 174, 228);
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card2{
+    background-color:transparent;
+    background-size: cover;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textsize{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+@media (max-width: 608px) {
+    .todo-main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.plogo{
+    height: 20vh;
+}
+
+.ll{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
